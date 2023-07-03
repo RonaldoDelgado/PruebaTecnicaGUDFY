@@ -16,6 +16,7 @@ Para ejecutar el proyecto en su totalidad, sigue estos pasos después de clonar 
 3. Activa el entorno virtual:
     - En Windows, abre la paleta de comandos con `Ctrl+Mayús+P`, busca "Python: Select Interpreter" y selecciónalo. Debería aparecer la recomendación de Python con tu versión y la ruta a la carpeta `venv` recién creada. Si no es así, busca `\server\venv\Scripts\python.exe`.
     - En macOS o Linux, ejecuta el comando `source venv/bin/activate`.
+    - Abre una nueva consola posicionado en la ruta `server` ahora deberia de verse asi : `(venv) PS C:\Users\PruebaTecnicaGUDFY\server>` resaltando (venv)
 4. Instala las librerías necesarias con el comando `pip install -r requirements.txt`.
 5. Crea el modelo `task` en la base de datos con el comando `python manage.py makemigrations`.
 6. Aplica las migraciones con el comando `python manage.py migrate`.
